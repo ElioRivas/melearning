@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.01mm" height="52mm" viewBox="0 0 136.1 147.39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #05060c;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        font-size: 72px;
+        fill: #fff;
+        font-family: BritannicBold, Britannic Bold;
+      }
+
+      .cls-3 {
+        font-size: 130px;
+        fill: #06a5d3;
+        font-family: ColonnaMT, Colonna MT;
+        letter-spacing: 0.02em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <circle class="cls-1" cx="68.05" cy="79.34" r="67.05"/>
+      <text class="cls-2" transform="translate(15.34 100.37)">M</text>
+      <text class="cls-3" transform="translate(68.05 98.86) scale(1.06 1)">e</text>
+    </g>
+  </g>
+</svg>
