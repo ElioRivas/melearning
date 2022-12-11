@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = ({id , styles, text}) => {
+const Button = ({id , styles, text}:{id:string, styles: string, text: string}) => {
   return (
     <button id={id} type='button' 
     className={`py-4 px-6 bg-blue-gradient
