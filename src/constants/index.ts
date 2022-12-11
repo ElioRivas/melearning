@@ -115,6 +115,7 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
     export const footerLinks = [
     {
+        key: "1",
         title: "Useful Links",
         links: [
         {
@@ -140,6 +141,7 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
         ],
     },
     {
+        key: "2",
         title: "Community",
         links: [
         {
@@ -165,6 +167,7 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
         ],
     },
     {
+        key: "3",
         title: "Partner",
         links: [
         {
