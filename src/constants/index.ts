@@ -6,38 +6,42 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
         title: "Home",
     },
     {
-        id: "features",
-        title: "Features",
+        id: "vision",
+        title: "Our Vision",
     },
     {
-        id: "product",
-        title: "Product",
+        id: "pricing",
+        title: "Pricing",
     },
     {
-        id: "clients",
-        title: "Clients",
+        id: "testimonials",
+        title: "Testimonials",
+    },
+    {
+        id: "footer",
+        title: "Contact Us",
     },
     ];
 
     
 
-    export const features = [
+    export const vision = [
     {
-        id: "feature-1",
+        id: "vision-1",
         icon: star,
         title: "Prestige",
         content:
         "The best experienced and qualified tutors from Florida in one place.",
     },
     {
-        id: "feature-2",
+        id: "vision-2",
         icon: shield,
         title: "100% Success",
         content:
         "We take proactive steps make sure you will gain the necessary skills.",
     },
     {
-        id: "feature-3",
+        id: "vision-3",
         icon: send,
         title: "20 year of experience",
         content:

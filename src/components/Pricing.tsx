@@ -2,9 +2,9 @@ import styles, {layout} from "../style"
 import{pricing} from '../assets';
 import Button from "./Button";
 
-const Billing = () =>
+const Pricing = () =>
   (
-    <section id="product" className={layout.sectionReverse}>
+    <section id="pricing" className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
       <img src={pricing} alt="pricing" className="w-[100%] h-[90%] relative z-[5]" />
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%]
@@ -32,4 +32,4 @@ const Billing = () =>
   )
 
 
-export default Billing
+export default Pricing

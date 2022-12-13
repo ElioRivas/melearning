@@ -1,9 +1,9 @@
-import { features } from "../constants"
+import { vision } from "../constants"
 import styles, { layout } from "../style"
 import Button from "./Button"
 
-const FeatureCard = ({ icon, title, content, index }:{icon: string, title: string, content: string, index: number}) => (
-  <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length -1 ? "mb-6":"mb-0"} feature-card`}>
+const VisionCard = ({ icon, title, content, index }:{icon: string, title: string, content: string, index: number}) => (
+  <div className={`flex flex-row p-6 rounded-[20px] ${index !== vision.length -1 ? "mb-6":"mb-0"} feature-card`}>
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
       <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain"/>
     </div>
@@ -19,9 +19,9 @@ const FeatureCard = ({ icon, title, content, index }:{icon: string, title: strin
   </div>
 )
 
-const Business = () => {
+const Vision = () => {
   return (
-   <section id="features" className={layout.section}>
+   <section id="vision" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Our vision is to reach all elementary school students 
@@ -34,12 +34,12 @@ const Business = () => {
         and experience; therefore, you will succeed in life.
       </p>
 
-        <Button id="btnBusiness" styles="mt-10 rounded-[10px]" text="Get Started"/>
+        <Button id="btnVision" styles="mt-10 rounded-[10px]" text="Get Started"/>
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
-      { features.map((feature, index) =>(
-        <FeatureCard key={feature.id}{...feature} index={index}/>
+      { vision.map((feature, index) =>(
+        <VisionCard key={feature.id}{...feature} index={index}/>
       ))}
     </div>
 
@@ -47,4 +47,4 @@ const Business = () => {
   )
 }
 
-export default Business
+export default Vision
