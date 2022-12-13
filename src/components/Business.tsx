@@ -24,15 +24,15 @@ const Business = () => {
    <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-          Our vision is to reach all elementary school students 
-          <br className="sm:block hidden"/> {" "}
-          needing support to become confident readers.
-        </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        Our vision is to reach all elementary school students 
+        <br className="sm:block hidden"/> {" "}
+        needing support to become confident readers.
+      </h2>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         With suitable tutors, you can improve your skills 
         and feel the confidence of a high level of teaching 
         and experience; therefore, you will succeed in life.
-        </p>
+      </p>
 
         <Button id="btnBusiness" styles="mt-10 rounded-[10px]" text="Get Started"/>
     </div>
