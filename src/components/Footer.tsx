@@ -33,7 +33,7 @@ const Footer = () =>  (
                   cursor:pointer
                   ${index !== footerlink.links.length -1 ? 'mb-4' : 'mb-0'}
                   `}
-                  >
+                  >                    
                     {link.name}
                   </li>
                 ))}
