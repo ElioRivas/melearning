@@ -14,7 +14,7 @@ const App = () => {
       </div>
 
       {/* Hero Section  */}
-      <div className={`bg-hero-pattern bg-no-repeat bg-cover bg-center bg-fixed ${styles.flexStart}`} >
+      <div className={`bg-hero-pattern bg-no-repeat bg-cover bg-center ${styles.flexStart}`} >
         <div className={`${styles.boxWidth}`}>
           <Hero/>
         </div>      
