@@ -11,7 +11,7 @@ module.exports = {
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       backgroundImage:{
-        'hero-pattern': "url('./src/assets/readingbackground.png')",
+        'hero-pattern': "url('/src/assets/readingbackground.png')",
       },    
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
