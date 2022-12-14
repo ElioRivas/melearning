@@ -26,6 +26,7 @@ import people03 from "./people03.png";
 import tutor from "./tutor.png";
 import scholarships from "./scholarhips.png";
 import pricing from "./pricing.png";
+import readingbackground from "./readingbackground.jpg"
 
 export {
   airbnb,
@@ -56,4 +57,5 @@ export {
   tutor,
   scholarships,
   pricing,
+  readingbackground,
 };

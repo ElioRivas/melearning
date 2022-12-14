@@ -1,6 +1,9 @@
 import styles from "./style"
 import { Navbar, Hero, Stats, Vision, Pricing, CardDeal, Testimonials, Clients, CTA, Footer } from "./components"
-const App = () => (
+
+const App = () => {
+
+  return ( 
     <div className='bg-primary w-full overflow-hidden'>
 
       {/* Navbar */}
@@ -11,7 +14,7 @@ const App = () => (
       </div>
 
       {/* Hero Section  */}
-      <div className={`bg-primary ${styles.flexStart}`} >
+      <div className={`bg-hero-pattern bg-no-repeat bg-cover bg-center bg-fixed ${styles.flexStart}`} >
         <div className={`${styles.boxWidth}`}>
           <Hero/>
         </div>      
@@ -32,7 +35,7 @@ const App = () => (
       
     </div>
   )
-
+}
 export default App
 
 // CardDeal
