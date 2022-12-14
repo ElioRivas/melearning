@@ -6,7 +6,7 @@ const App = () => {
   return ( 
     <div className='bg-primary w-full overflow-hidden'>
 
-      {/* Navbar color changes*/}
+      {/* Navbar*/}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar/>
@@ -38,6 +38,3 @@ const App = () => {
 }
 export default App
 
-// CardDeal
-// https://www.youtube.com/watch?v=_oO4Qi5aVZs&t=5185s&ab_channel=JavaScriptMastery
-// 1.35.34
